@@ -1,0 +1,55 @@
+body {
+  background-color: #f0e0e8;
+  font-family: 'Dancing Script', cursive; /* Aplicando a fonte a todo o corpo */
+}
+
+h1{
+  text-align: center;
+}
+
+.invisivel {
+  display: none;
+}
+
+.visivel {
+  display: inline;
+}
+
+.inicial {
+  text-align: center;
+  font-size: 80px;
+  background-color: #ffccf0;
+  width: 150px;
+  height: 200px;
+  border: 15px solid #ff99cc;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.acertou {
+  text-align: center;
+  color: #fff;
+  background-color: #ff66b3;
+  width: 150px;
+  height: 200px;
+  border: 15px solid #ff3399;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.errou {
+  text-align: center;
+  color: #fff;
+  background-color: #d5006d;
+  width: 150px;
+  height: 200px;
+  border: 15px solid #ff1a75;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
